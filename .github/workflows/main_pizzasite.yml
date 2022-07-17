@@ -14,13 +14,10 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+      - uses: actions/checkout@v3
         with:
           name: ASP-app
-          path: https://github.com/viswavik7/HTML
+          path: D:\a\HTML\HTML
 
   deploy:
     runs-on: windows-latest
