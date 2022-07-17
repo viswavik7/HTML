@@ -16,9 +16,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - run: mkdir -p D:\a\HTML\HTML
-    - run: echo hello > D:\a\HTML\HTML\index.html
-
     - uses: actions/upload-artifact@v3
       with:
         name: ASP-app
