@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ASP-app
-          path: /HTML/index.html
+          path: https://github.com/viswavik7/HTML
 
   deploy:
     runs-on: windows-latest
